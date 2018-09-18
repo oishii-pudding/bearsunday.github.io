@@ -40,7 +40,7 @@ class Index extends ResourceObject
 In the `cli` context, the argument from the console is "input of external context".
 
 ```bash
-php bootstrap/web.php get /
+php bin/page.php get /
 ```
 
 The BEAR.Sunday application works on both the Web and the CLI.

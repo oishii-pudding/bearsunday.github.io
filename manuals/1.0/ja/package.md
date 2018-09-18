@@ -58,15 +58,15 @@ BEARのリソースはコンソール入力とWebの双方からアクセスで�
 呼び出すスクリプトによってコンテキストが変わります。
 
 ```bash
-php bootstrap/api.php options '/self/todo' # APIアクセス
+php bin/app.php options '/self/todo' # APIアクセス
 ```
 
 ```bash
-php bootstrap/web.php get '/todo?id=1' # Webアクセス
+php bin/page.php get '/todo?id=1' # Webアクセス
 ```
 
 ```bash
-php -S 127.0.0.1 bootstrap/api.php # PHPサーバー
+php -S 127.0.0.1 bin/app.php # PHPサーバー
 ```
 
 コンテキストが変わるとアプリケーションの振る舞いが変わります。

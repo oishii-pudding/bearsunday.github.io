@@ -55,15 +55,15 @@ The file layout of the BEAR.Sunday application conforms to [php-pds/skeleton] (h
 You can access same resource through console input or web access with same boot file.
 
 ```bash
-php bootstrap/api.php options '/self/todo' // console API access
+php bin/app.php options '/self/todo' // console API access
 ```
 
 ```bash
-php bootstrap/web.php get '/todo?id=1' // console Web access
+php bin/page.php get '/todo?id=1' // console Web access
 ```
 
 ```bash
-php -S 127.0.0.1bootstrap/api.php // PHP server
+php -S 127.0.0.1bin/app.php // PHP server
 ```
 
 You can create your own boot file for different context.
